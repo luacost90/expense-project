@@ -1,1 +1,12 @@
 [19-Oct-2024 04:55:05 Europe/Berlin] Inicio de aplicacion web
+[19-Oct-2024 19:44:28 Europe/Berlin] Inicio de aplicacion web
+[19-Oct-2024 19:44:28 Europe/Berlin] APP::construct-> no hay controlador especificado
+[19-Oct-2024 19:44:28 Europe/Berlin] PHP Warning:  require_once(controllers/login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\expenses-app\libs\app.php on line 21
+[19-Oct-2024 19:44:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\expenses-app\libs\app.php:21
+Stack trace:
+#0 C:\xampp\htdocs\expenses-app\index.php(16): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\expenses-app\libs\app.php on line 21
+[19-Oct-2024 19:49:01 Europe/Berlin] Inicio de aplicacion web
+[19-Oct-2024 19:49:01 Europe/Berlin] APP::construct-> no hay controlador especificado
+[19-Oct-2024 19:49:01 Europe/Berlin] Login::construct -> inicio de Login
