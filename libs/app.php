@@ -23,9 +23,9 @@ class App{
             $controller = new Login();
 
             // Se carga el modelo de ese controller
-            $controller->loadModerl('login');
+            $controller->loadModel('login');
 
-            // Renderiza la vista
+            // Renderiza la vista POR DEFECTO
             $controller->render();
 
             // Para terminar la clase

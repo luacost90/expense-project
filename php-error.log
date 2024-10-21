@@ -10,3 +10,25 @@ Stack trace:
 [19-Oct-2024 19:49:01 Europe/Berlin] Inicio de aplicacion web
 [19-Oct-2024 19:49:01 Europe/Berlin] APP::construct-> no hay controlador especificado
 [19-Oct-2024 19:49:01 Europe/Berlin] Login::construct -> inicio de Login
+[21-Oct-2024 19:09:29 Europe/Berlin] Inicio de aplicacion web
+[21-Oct-2024 19:09:29 Europe/Berlin] APP::construct-> no hay controlador especificado
+[21-Oct-2024 19:09:29 Europe/Berlin] Login::construct -> inicio de Login
+[21-Oct-2024 19:09:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::render() in C:\xampp\htdocs\expenses-app\libs\app.php:29
+Stack trace:
+#0 C:\xampp\htdocs\expenses-app\index.php(22): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\expenses-app\libs\app.php on line 29
+[21-Oct-2024 19:12:08 Europe/Berlin] Inicio de aplicacion web
+[21-Oct-2024 19:12:08 Europe/Berlin] APP::construct-> no hay controlador especificado
+[21-Oct-2024 19:12:08 Europe/Berlin] Login::construct -> inicio de Login
+[21-Oct-2024 19:12:08 Europe/Berlin] PHP Warning:  require(views/login/index.php.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\expenses-app\libs\view.php on line 12
+[21-Oct-2024 19:12:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login/index.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\expenses-app\libs\view.php:12
+Stack trace:
+#0 C:\xampp\htdocs\expenses-app\controllers\login.php(11): View->render('login/index.php')
+#1 C:\xampp\htdocs\expenses-app\libs\app.php(29): Login->render()
+#2 C:\xampp\htdocs\expenses-app\index.php(22): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\expenses-app\libs\view.php on line 12
+[21-Oct-2024 19:12:49 Europe/Berlin] Inicio de aplicacion web
+[21-Oct-2024 19:12:49 Europe/Berlin] APP::construct-> no hay controlador especificado
+[21-Oct-2024 19:12:49 Europe/Berlin] Login::construct -> inicio de Login
