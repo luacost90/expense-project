@@ -1,5 +1,7 @@
 <?php
 
+require_once './controllers/errors.php';
+
 class App{
 
     function __construct(){
@@ -25,7 +27,7 @@ class App{
             // Se carga el modelo de ese controller
             $controller->loadModel('login');
 
-            // Renderiza la vista POR DEFECTO
+            // Renderiza la vista POR DEFECTO en este caso LOGIN
             $controller->render();
 
             // Para terminar la clase
@@ -68,7 +70,9 @@ class App{
                         }
 
                     }else{
-                        //error, no existe el metodo
+                        //error, no existe el metodo 
+                        $controller = new Errors();
+                        $controller->render();
                     }
 
                 }else{
@@ -77,7 +81,8 @@ class App{
                 }
 
             }else{
-
+                $controller = new Errors();
+                $controller->render();
             }
     }
 }

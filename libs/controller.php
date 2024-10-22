@@ -30,6 +30,41 @@ class Controller{
         }
     }
 
+    function existPOST($params){
+
+        foreach($params as $param){
+            if(!isset($_POST[$param])){
+                error_log('CONTROLLER::existsPost => No existe el parametro' . $param);
+                return true;
+            }
+        }
+
+        return true;
+    }
+
+    function existGET($params){
+        
+        foreach($params as $param){
+            if(!isset($_GET[$param])){
+                error_log('CONTROLLER::existsGet => No existe el parametro' . $param);
+                return true;
+            }
+        }
+
+        return true;
+    }
+
+    function getGet($name){
+        return $_GET[$name];
+    }
+
+    function getPost($name){
+        return $_POST[$name];
+    }
+
+    function redirect($url, $messages){
+        
+    }
 }
 
 

@@ -8,6 +8,7 @@ class Login extends Controller{
     }
 
     function render(){
+        error_log('Login::render -> Carga el index del Login');
         $this->view->render('login/index');
     }
 }

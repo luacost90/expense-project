@@ -32,3 +32,37 @@ Stack trace:
 [21-Oct-2024 19:12:49 Europe/Berlin] Inicio de aplicacion web
 [21-Oct-2024 19:12:49 Europe/Berlin] APP::construct-> no hay controlador especificado
 [21-Oct-2024 19:12:49 Europe/Berlin] Login::construct -> inicio de Login
+[21-Oct-2024 19:35:04 Europe/Berlin] Inicio de aplicacion web
+[21-Oct-2024 19:35:04 Europe/Berlin] APP::construct-> no hay controlador especificado
+[21-Oct-2024 19:35:04 Europe/Berlin] Login::construct -> inicio de Login
+[21-Oct-2024 19:35:04 Europe/Berlin] Login::render -> Carga el index del Login
+[22-Oct-2024 02:12:20 Europe/Berlin] Inicio de aplicacion web
+[22-Oct-2024 02:12:20 Europe/Berlin] APP::construct-> no hay controlador especificado
+[22-Oct-2024 02:12:20 Europe/Berlin] Login::construct -> inicio de Login
+[22-Oct-2024 02:12:20 Europe/Berlin] Login::render -> Carga el index del Login
+[22-Oct-2024 02:12:25 Europe/Berlin] Inicio de aplicacion web
+[22-Oct-2024 02:12:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Errors" not found in C:\xampp\htdocs\expenses-app\libs\app.php:81
+Stack trace:
+#0 C:\xampp\htdocs\expenses-app\index.php(22): App->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\expenses-app\libs\app.php on line 81
+[22-Oct-2024 02:16:05 Europe/Berlin] Inicio de aplicacion web
+[22-Oct-2024 02:16:05 Europe/Berlin] Errors::construct-> inicio de errores
+[22-Oct-2024 02:16:11 Europe/Berlin] Inicio de aplicacion web
+[22-Oct-2024 02:16:11 Europe/Berlin] APP::construct-> no hay controlador especificado
+[22-Oct-2024 02:16:11 Europe/Berlin] Login::construct -> inicio de Login
+[22-Oct-2024 02:16:11 Europe/Berlin] Login::render -> Carga el index del Login
+[22-Oct-2024 02:16:13 Europe/Berlin] Inicio de aplicacion web
+[22-Oct-2024 02:16:13 Europe/Berlin] Errors::construct-> inicio de errores
+[22-Oct-2024 02:16:58 Europe/Berlin] Inicio de aplicacion web
+[22-Oct-2024 02:16:58 Europe/Berlin] Errors::construct-> inicio de errores
+[22-Oct-2024 02:17:00 Europe/Berlin] Inicio de aplicacion web
+[22-Oct-2024 02:17:00 Europe/Berlin] Errors::construct-> inicio de errores
+[22-Oct-2024 02:17:24 Europe/Berlin] Inicio de aplicacion web
+[22-Oct-2024 02:17:24 Europe/Berlin] Errors::construct-> inicio de errores
+[22-Oct-2024 02:17:28 Europe/Berlin] Inicio de aplicacion web
+[22-Oct-2024 02:17:28 Europe/Berlin] APP::construct-> no hay controlador especificado
+[22-Oct-2024 02:17:28 Europe/Berlin] Login::construct -> inicio de Login
+[22-Oct-2024 02:17:28 Europe/Berlin] Login::render -> Carga el index del Login
+[22-Oct-2024 02:20:27 Europe/Berlin] Inicio de aplicacion web
+[22-Oct-2024 02:20:27 Europe/Berlin] Errors::construct-> inicio de errores
